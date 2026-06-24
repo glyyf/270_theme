@@ -35,6 +35,10 @@ class HeaderMenu extends Component {
     window.removeEventListener('resize', this.#resizeListener);
     this.overflowMenu?.removeEventListener('pointerleave', this.#overflowSubmenuListener);
     this.#cleanupMutationObserver();
+    if (this.#deactivateTimer) {
+      clearTimeout(this.#deactivateTimer);
+      this.#deactivateTimer = null;
+    }
   }
 
   /**
@@ -55,6 +59,11 @@ class HeaderMenu extends Component {
   #state = {
     activeItem: null,
   };
+
+  /**
+   * @type {ReturnType<typeof setTimeout> | null}
+   */
+  #deactivateTimer = null;
 
   /**
    * Get the overflow menu
@@ -80,6 +89,10 @@ class HeaderMenu extends Component {
    * @param {PointerEvent | FocusEvent} event
    */
   activate = (event) => {
+    if (this.#deactivateTimer) {
+      clearTimeout(this.#deactivateTimer);
+      this.#deactivateTimer = null;
+    }
     this.dispatchEvent(new MegaMenuHoverEvent());
 
     if (!(event.target instanceof Element) || !this.headerComponent) return;
@@ -177,7 +190,10 @@ class HeaderMenu extends Component {
 
     if (isMovingWithinMenu || isMovingToOverflowMenu || isMovingToSubmenu) return;
 
-    this.#deactivate();
+    this.#deactivateTimer = setTimeout(() => {
+      this.#deactivateTimer = null;
+      this.#deactivate();
+    }, 200);
   }
 
   /**
