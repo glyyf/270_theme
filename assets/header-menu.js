@@ -192,6 +192,7 @@ class HeaderMenu extends Component {
 
     this.#deactivateTimer = setTimeout(() => {
       this.#deactivateTimer = null;
+      if (this.matches(':hover')) return;
       this.#deactivate();
     }, 200);
   }
