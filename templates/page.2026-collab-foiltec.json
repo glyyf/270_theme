@@ -517,7 +517,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foildrive-approved.jpg",
                 "link": "",
-                "enable_lightbox": false,
+                "enable_lightbox": true,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -586,7 +586,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foiltec-tracks.jpg",
                 "link": "",
-                "enable_lightbox": false,
+                "enable_lightbox": true,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -655,7 +655,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
                 "link": "",
-                "enable_lightbox": false,
+                "enable_lightbox": true,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -724,7 +724,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
                 "link": "",
-                "enable_lightbox": false,
+                "enable_lightbox": true,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -832,7 +832,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foildrive-approved.jpg",
                 "link": "",
-                "enable_lightbox": false,
+                "enable_lightbox": true,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -901,7 +901,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foiltec-tracks.jpg",
                 "link": "",
-                "enable_lightbox": false,
+                "enable_lightbox": true,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -970,7 +970,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
                 "link": "",
-                "enable_lightbox": false,
+                "enable_lightbox": true,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -1039,7 +1039,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
                 "link": "",
-                "enable_lightbox": false,
+                "enable_lightbox": true,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
