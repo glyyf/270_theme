@@ -417,7 +417,7 @@
         "group_dKLiYe"
       ],
       "custom_css": [
-        "button {font-weight: bold;}"
+        "a.button {font-weight: bold;}"
       ],
       "name": "Board w Text",
       "settings": {
