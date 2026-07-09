@@ -183,6 +183,15 @@
     @media screen and (min-width: 750px) {
       max-width: 90vw;
       max-height: 90vh;
+      /* margin: auto only reliably centers the width axis when a box's
+         size is shrink-to-fit/capped rather than forced — the same
+         auto-margin mechanism does not reliably center the height axis
+         in that situation. top/transform handles vertical centering
+         explicitly instead; left/right are left alone since the
+         margin: auto above already centers horizontally correctly. */
+      top: 50%;
+      bottom: auto;
+      transform: translateY(-50%);
     }
   }
 
