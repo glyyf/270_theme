@@ -294,36 +294,100 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_zVq4hk": {
-              "type": "text",
-              "name": "t:names.heading",
+            "group_fwG7XF": {
+              "type": "group",
+              "name": "t:names.group",
               "settings": {
-                "text": "<h3>Unicorn Foil Drive Board</h3>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {}
+              "blocks": {
+                "image_bK3wPF": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "image_F9NcAE": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_bK3wPF",
+                "image_F9NcAE"
+              ]
             },
             "text_BCQGf8": {
               "type": "text",
               "settings": {
-                "text": "<p>Foil Drive has played a key role in the evolution of 270 over the past year, helping refine a wide range of outlines tailored to different riding styles. Through that process, one shape stood out above the rest. The Unicorn.<br/><br/>Simply put, it just works.<br/><br/>Fast, responsive, and incredibly intuitive, the Unicorn features finely tuned rail lines for maximum performance, easy release, and smooth, controlled touchdowns. It is a shape riders keep coming back to, tested and refined across a wide range of conditions, sizes, and skill levels.<br/><br/>This is the board that does it all. Once you ride it, you will understand why.</p>",
+                "text": "<p>Built at the Lucid Glassing factory in Northern NSW, Australia - the <br/>same factory trusted to manufacture Amos Shapes and Majek boards - this <br/>collaboration gives riders in the southern hemisphere greater access to <br/>stock and additional options, while 270 Board Co. continues building for<br/> our home market.</p><p>The first board entering production will be the <strong>Kinetic</strong>, selected due to high demand.</p>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -349,8 +413,8 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "START YOUR CUSTOM ORDER NOW",
-                "link": "shopify://pages/2026-custom-orders",
+                "label": "VISIT FOILTEC / LUCID GLASSING",
+                "link": "https://foil-tec.com/en-us/collections/270-board-co/270-board-co",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "custom",
@@ -359,156 +423,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "accordion_97Vd4V": {
-              "type": "accordion",
-              "name": "t:names.accordion",
-              "settings": {
-                "icon": "caret",
-                "dividers": true,
-                "type_preset": "h5",
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 30,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "accordion_row_8b4kEH": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Construction",
-                    "open_by_default": true,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_wGJHrz": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>Built with full carbon construction, the Unicorn board is incredibly lightweight yet exceptionally strong—delivering a responsive, high-performance feel without sacrificing durability.</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "paragraph",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_wGJHrz"
-                  ]
-                },
-                "accordion_row_8bN6BV": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Shipping",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_xeJra8": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_xeJra8"
-                  ]
-                },
-                "accordion_row_FLfDWi": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Manufacturing",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_eD8yai": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>Our products are custom designed and built here in California. We carefully select our board components  to ensure our products are of the highest quality on the market.</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_eD8yai"
-                  ]
-                }
-              },
-              "block_order": [
-                "accordion_row_8b4kEH",
-                "accordion_row_8bN6BV",
-                "accordion_row_FLfDWi"
-              ]
             }
           },
           "block_order": [
-            "text_zVq4hk",
+            "group_fwG7XF",
             "text_BCQGf8",
-            "button_DepTDn",
-            "accordion_97Vd4V"
+            "button_DepTDn"
           ]
         }
       },
