@@ -199,7 +199,7 @@
         "text_j8jdE6"
       ],
       "custom_css": [
-        "p {font-size: 24px;}"
+        "p {font-size: 28px;}"
       ],
       "name": "t:names.rich_text_section",
       "settings": {
@@ -415,6 +415,9 @@
       "block_order": [
         "image_fY9nPn",
         "group_dKLiYe"
+      ],
+      "custom_css": [
+        "a.button {font-weight: bold;}"
       ],
       "name": "Board w Text",
       "settings": {
