@@ -49,9 +49,19 @@ Insert a new line between `enable_grid_density` and `enable_sorting` so the bloc
 
 - [ ] **Step 2: Verify the locale file is still valid JSON**
 
-Run: `python3 -c "import json,re; text=open('locales/en.default.schema.json').read(); text=re.sub(r'//.*', '', text); json.loads(text)" && echo OK`
+Run:
+```bash
+python3 -c "
+import re, json
+text = open('locales/en.default.schema.json').read()
+text = re.sub(r'/\*.*?\*/', '', text, flags=re.S)
+text = re.sub(r'(?<!:)//.*', '', text)
+json.loads(text)
+print('OK')
+"
+```
 
-Expected output: `OK` (the file uses `//` comments in places, which is why the check strips them before parsing — this mirrors how Shopify's own tooling tolerates JSONC in these files, but a plain `json.loads` needs comments stripped first).
+Expected output: `OK` (the file is JSONC: a leading `/* ... */` block comment plus scattered `//` line comments, which is why both are stripped before parsing. The line-comment regex uses a negative lookbehind for `:` so it doesn't also eat the `//` inside `https://` URLs that appear in several setting descriptions — a naive `re.sub(r'//.*', '', text)` corrupts those lines and makes the file fail to parse even though it's valid JSONC).
 
 - [ ] **Step 3: Add the checkbox setting to the Image block schema, mutually exclusive with `link`**
 
