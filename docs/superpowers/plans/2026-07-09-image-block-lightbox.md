@@ -243,6 +243,7 @@ Replace it with:
     </button>
     <dialog
       ref="dialog"
+      aria-label="{{ 'actions.open_image_in_full_screen' | t }}"
       class="image-block__lightbox dialog-modal color-{{ settings.popover_color_scheme }}"
     >
       {{ lightbox_image }}
@@ -345,6 +346,14 @@ Insert these new rules directly before `{% endstylesheet %}`:
        stays the click target. Supported in all evergreen browsers. */
     display: contents;
     cursor: zoom-in;
+  }
+
+  .image-block__lightbox-trigger:focus-visible .image-block__image {
+    /* display: contents above means the button itself has no box to paint
+       the global *:focus-visible outline (assets/base.css) onto — draw it
+       on the inner image instead so keyboard focus stays visible. */
+    outline: var(--focus-outline-width) solid currentcolor;
+    outline-offset: var(--focus-outline-offset);
   }
 
   .image-block__lightbox {
