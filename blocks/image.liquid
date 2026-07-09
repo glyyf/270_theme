@@ -164,6 +164,15 @@
        stays the click target. Supported in all evergreen browsers. */
     display: contents;
     cursor: zoom-in;
+
+    @media screen and (max-width: 749px) {
+      /* The image is already full-width on mobile, so the lightbox adds
+         nothing there — pointer-events: none disables the click/tap (and
+         touch-based screen reader activation) without touching the
+         desktop behavior above. */
+      pointer-events: none;
+      cursor: default;
+    }
   }
 
   .image-block__lightbox-trigger:focus-visible .image-block__image {
