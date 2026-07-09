@@ -116,7 +116,15 @@
     {
       "type": "url",
       "id": "link",
-      "label": "t:settings.link"
+      "label": "t:settings.link",
+      "visible_if": "{{ block.settings.enable_lightbox == false }}"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_lightbox",
+      "label": "t:settings.enable_lightbox",
+      "default": false,
+      "visible_if": "{{ block.settings.link == blank }}"
     },
     {
       "type": "header",

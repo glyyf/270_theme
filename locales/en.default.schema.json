@@ -857,6 +857,7 @@
     "empty_state_collection_info": "Shown before a search is entered",
     "enable_filtering": "Filters",
     "enable_grid_density": "Grid layout control",
+    "enable_lightbox": "Enable lightbox",
     "enable_sorting": "Sorting",
     "enable_sticky_add_to_cart": "Sticky add to cart bar",
     "enable_sticky_content": "Sticky content on desktop",
