@@ -151,6 +151,39 @@
     object-fit: cover;
     aspect-ratio: var(--ratio);
   }
+
+  .image-block__lightbox-trigger {
+    /* display: contents drops the button's own box so the image inside sizes
+       exactly as it did with the old div/a wrapper (including the
+       image-block--height-fill descendant rule below), while the img itself
+       stays the click target. Supported in all evergreen browsers. */
+    display: contents;
+    cursor: zoom-in;
+  }
+
+  .image-block__lightbox {
+    display: flex;
+    padding: var(--padding-md);
+
+    @media screen and (min-width: 750px) {
+      max-width: 90vw;
+      max-height: 90vh;
+    }
+  }
+
+  .image-block__lightbox-image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .image-block__lightbox-close {
+    color: #fff;
+    mix-blend-mode: difference;
+    z-index: var(--layer-raised);
+  }
 {% endstylesheet %}
 
 {% schema %}
