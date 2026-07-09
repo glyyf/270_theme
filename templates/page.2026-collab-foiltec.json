@@ -223,7 +223,7 @@
         "border_opacity": 100,
         "border_radius": 0,
         "toggle_overlay": true,
-        "overlay_color": "#BEBEBE",
+        "overlay_color": "#bebebe",
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 48,
@@ -238,6 +238,7 @@
           "settings": {
             "image": "shopify://shop_images/boards-foildrive-unicorn-main.jpg",
             "link": "",
+            "enable_lightbox": false,
             "image_ratio": "adapt",
             "width": "fill",
             "custom_width": 100,
@@ -339,6 +340,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "link": "",
+                    "enable_lightbox": false,
                     "image_ratio": "adapt",
                     "width": "fill",
                     "custom_width": 100,
@@ -361,6 +363,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "link": "",
+                    "enable_lightbox": false,
                     "image_ratio": "adapt",
                     "width": "fill",
                     "custom_width": 100,
@@ -514,6 +517,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foildrive-approved.jpg",
                 "link": "",
+                "enable_lightbox": false,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -530,64 +534,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "text_BG8JrN": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>FoilDrive Approved</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_Gf6mKX": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "text": "<p>Built to integrate seamlessly with FoilDrive systems, 270 Foilboards are FoilDrive approved—delivering the strength, balance, and precision needed for a next-level powered foiling experience.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "image_ykiLhp",
-            "text_BG8JrN",
-            "text_Gf6mKX"
+            "image_ykiLhp"
           ]
         },
         "group_9fkTPb": {
@@ -636,6 +586,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foiltec-tracks.jpg",
                 "link": "",
+                "enable_lightbox": false,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -652,64 +603,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "text_fW6nfA": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>FoilTec Tracks</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_VPNNB8": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "text": "<p>Equipped with FoilTec tracks across every design, 270 Foilboards deliver unmatched strength, precision, and adjustability—ensuring a rock-solid connection you can trust in any condition.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "image_3LEz9T",
-            "text_fW6nfA",
-            "text_VPNNB8"
+            "image_3LEz9T"
           ]
         },
         "group_H86Dww": {
@@ -758,6 +655,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
                 "link": "",
+                "enable_lightbox": false,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -774,64 +672,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "text_rEN8Mr": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>Custom Traction</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_jjcHk8": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "text": "<p>Every 270 Foilboard comes standard with custom traction pads, delivering superior grip and all-day comfort so you can stay locked in and ride longer with confidence.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "image_JgDMNf",
-            "text_rEN8Mr",
-            "text_jjcHk8"
+            "image_JgDMNf"
           ]
         },
         "group_84jL7G": {
@@ -880,6 +724,7 @@
               "settings": {
                 "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
                 "link": "",
+                "enable_lightbox": false,
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
@@ -896,52 +741,108 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "text_hMYUxg": {
-              "type": "text",
-              "name": "t:names.heading",
+            }
+          },
+          "block_order": [
+            "image_bHghLj"
+          ]
+        }
+      },
+      "block_order": [
+        "group_trfgfD",
+        "group_9fkTPb",
+        "group_H86Dww",
+        "group_84jL7G"
+      ],
+      "name": "t:names.multicolumn",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "flex-start",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 30,
+        "padding-block-end": 30
+      }
+    },
+    "section_wUkNzT": {
+      "type": "section",
+      "blocks": {
+        "group_VVaA8N": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "image_z47CAF": {
+              "type": "image",
+              "name": "t:names.image",
               "settings": {
-                "text": "<h2>Custom Traction</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_HtfP6a": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "text": "<p>Every 270 Foilboard comes standard with custom traction pads, delivering superior grip and all-day comfort so you can stay locked in and ride longer with confidence.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
+                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foildrive-approved.jpg",
+                "link": "",
+                "enable_lightbox": false,
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -951,17 +852,222 @@
             }
           },
           "block_order": [
-            "image_bHghLj",
-            "text_hMYUxg",
-            "text_HtfP6a"
+            "image_z47CAF"
+          ]
+        },
+        "group_WYKzGq": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "image_FYrhgz": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foiltec-tracks.jpg",
+                "link": "",
+                "enable_lightbox": false,
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_FYrhgz"
+          ]
+        },
+        "group_VRYUxr": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "image_8NAtRN": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
+                "link": "",
+                "enable_lightbox": false,
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_8NAtRN"
+          ]
+        },
+        "group_BbqraJ": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "image_jwbq4E": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
+                "link": "",
+                "enable_lightbox": false,
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_jwbq4E"
           ]
         }
       },
       "block_order": [
-        "group_trfgfD",
-        "group_9fkTPb",
-        "group_H86Dww",
-        "group_84jL7G"
+        "group_VVaA8N",
+        "group_WYKzGq",
+        "group_VRYUxr",
+        "group_BbqraJ"
       ],
       "name": "t:names.multicolumn",
       "settings": {
@@ -998,6 +1104,7 @@
     "hero_JAT6W3",
     "section_pJM7Mq",
     "section_WL6wCc",
-    "section_p3bVWT"
+    "section_p3bVWT",
+    "section_wUkNzT"
   ]
 }
