@@ -236,7 +236,7 @@
         "image_fY9nPn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/boards-foildrive-unicorn-main.jpg",
+            "image": "shopify://shop_images/collab-product-foiltec-kinetic-01.jpg",
             "link": "",
             "enable_lightbox": false,
             "image_ratio": "adapt",
@@ -339,29 +339,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "link": "",
-                    "enable_lightbox": false,
-                    "image_ratio": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "image_F9NcAE": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
+                    "image": "shopify://shop_images/collab-logo-foiltec-lucid.png",
                     "link": "",
                     "enable_lightbox": false,
                     "image_ratio": "adapt",
@@ -383,8 +361,7 @@
                 }
               },
               "block_order": [
-                "image_bK3wPF",
-                "image_F9NcAE"
+                "image_bK3wPF"
               ]
             },
             "text_BCQGf8": {
@@ -515,7 +492,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foildrive-approved.jpg",
+                "image": "shopify://shop_images/collab-product-foiltec-kinetic-02.jpg",
                 "link": "",
                 "enable_lightbox": true,
                 "image_ratio": "adapt",
@@ -584,7 +561,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foiltec-tracks.jpg",
+                "image": "shopify://shop_images/collab-product-foiltec-kinetic-03.jpg",
                 "link": "",
                 "enable_lightbox": true,
                 "image_ratio": "adapt",
@@ -653,7 +630,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
+                "image": "shopify://shop_images/collab-product-foiltec-kinetic-04.jpg",
                 "link": "",
                 "enable_lightbox": true,
                 "image_ratio": "adapt",
@@ -722,7 +699,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
+                "image": "shopify://shop_images/collab-product-foiltec-kinetic-05.jpg",
                 "link": "",
                 "enable_lightbox": true,
                 "image_ratio": "adapt",
@@ -830,7 +807,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foildrive-approved.jpg",
+                "image": "shopify://shop_images/collab-action-foiltec-kinetic-01.jpg",
                 "link": "",
                 "enable_lightbox": true,
                 "image_ratio": "adapt",
@@ -899,7 +876,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-foiltec-tracks.jpg",
+                "image": "shopify://shop_images/collab-action-foiltec-kinetic-02.jpg",
                 "link": "",
                 "enable_lightbox": true,
                 "image_ratio": "adapt",
@@ -968,7 +945,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
+                "image": "shopify://shop_images/collab-action-foiltec-kinetic-03.jpg",
                 "link": "",
                 "enable_lightbox": true,
                 "image_ratio": "adapt",
@@ -1037,7 +1014,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/boards-foildrive-unicorn-feature-traction.jpg",
+                "image": "shopify://shop_images/collab-action-foiltec-kinetic-04.jpg",
                 "link": "",
                 "enable_lightbox": true,
                 "image_ratio": "adapt",
