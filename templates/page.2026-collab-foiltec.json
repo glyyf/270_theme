@@ -734,6 +734,9 @@
         "group_H86Dww",
         "group_84jL7G"
       ],
+      "custom_css": [
+        "img {box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);}"
+      ],
       "name": "t:names.multicolumn",
       "settings": {
         "content_direction": "row",
