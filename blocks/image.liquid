@@ -167,7 +167,10 @@
     outline-offset: var(--focus-outline-offset);
   }
 
-  .image-block__lightbox {
+  .image-block__lightbox[open] {
+    /* Scoped to [open]: the native dialog default (display: none when
+       closed) must stay in effect while closed, or the dialog renders
+       in-flow on top of the trigger thumbnail and swallows its clicks. */
     display: flex;
     padding: var(--padding-md);
 
