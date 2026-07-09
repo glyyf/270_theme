@@ -172,26 +172,29 @@
        closed) must stay in effect while closed, or the dialog renders
        in-flow on top of the trigger thumbnail and swallows its clicks. */
     display: flex;
-    /* The browser only auto-centers a modal dialog horizontally by
-       default; margin: auto is needed explicitly to center it
-       vertically too, once it has a definite height below. */
+    /* This theme resets margin to 0 on every element (assets/base.css),
+       which also kills the browser's native dialog auto-centering.
+       margin: auto here counteracts that reset on both axes — with
+       max-width/max-height below (not a forced width/height), this is
+       what centers a dialog that's sized to its own content. */
     margin: auto;
     padding: var(--padding-md);
 
     @media screen and (min-width: 750px) {
-      width: 90vw;
-      height: 90vh;
+      max-width: 90vw;
+      max-height: 90vh;
     }
   }
 
   .image-block__lightbox-image {
-    /* width/height: 100% (not max-) so the element's own box fills the
-       dialog; object-fit: contain then letterboxes the picture inside
-       that box by the image's real aspect ratio, instead of shrinking
-       the box itself down to the image's intrinsic size. */
+    /* max-width/max-height (not forced width/height): the dialog sizes
+       itself to the image's own proportions (via this same rule), only
+       capped for safety by the dialog's max-width/max-height above —
+       it doesn't force small source images to stretch to fill a large
+       fixed box. */
     display: block;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
   }
 
