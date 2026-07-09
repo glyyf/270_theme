@@ -416,6 +416,9 @@
         "image_fY9nPn",
         "group_dKLiYe"
       ],
+      "custom_css": [
+        "button {font-weight:bold;}"
+      ],
       "name": "Board w Text",
       "settings": {
         "content_direction": "row",
