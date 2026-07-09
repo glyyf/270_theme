@@ -172,11 +172,15 @@
        closed) must stay in effect while closed, or the dialog renders
        in-flow on top of the trigger thumbnail and swallows its clicks. */
     display: flex;
+    /* The browser only auto-centers a modal dialog horizontally by
+       default; margin: auto is needed explicitly to center it
+       vertically too, once it has a definite height below. */
+    margin: auto;
     padding: var(--padding-md);
 
     @media screen and (min-width: 750px) {
-      max-width: 90vw;
-      max-height: 90vh;
+      width: 90vw;
+      height: 90vh;
     }
   }
 
