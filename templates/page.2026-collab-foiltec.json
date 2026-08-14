@@ -172,7 +172,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p><strong>270 Board Co. has partnered with Australian brand Foil Tec to <br/>make a select range of models more easily available to the Australian market.</strong></p>",
+            "text": "<p><strong>270 Board Co. has partnered with Australian brand FoilTec to <br/>make a select range of models more easily available to the Australian market.</strong></p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
