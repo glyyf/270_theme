@@ -279,7 +279,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>CUSTOM</h2>",
+                "text": "<h2>Options.</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -304,7 +304,7 @@
             "text_BB3rQD": {
               "type": "text",
               "settings": {
-                "text": "<h4>Because we build specifically for you.</h4><h4>Each outline and shape is built around the seasons and your abilities.</h4>",
+                "text": "<h4>We do it all, so we build it all.</h4>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
